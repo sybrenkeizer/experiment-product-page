@@ -8,15 +8,13 @@
 
 4 LEARN
 
-5 STUDIO
+5 SCHEDULE
 
-6 CLASSES
+6 PRICES
 
-7 SCHEDULE & PRICES
+7 CONTACT
 
-8CONTACT
-
-9 FOOTER
+8 FOOTER
 
 -->
 
@@ -25,503 +23,623 @@
   <head>
     <title>Harakiri MMA</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
     <meta name="description" content="">
     <meta name="keywords" content="">
-    <link rel="stylesheet" type="" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bellefair&family=Pompiere&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=Italianno&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/7f54da3798.js" crossorigin="anonymous"></script>
   </head>
   <body>
 
     <!-- 1 HEADER-->
-    
-    <header>
-      <div class="wrapper">
-        <nav>
-          <div class="logo-box">
-            <img class="logo" src="image/logo.png" alt="logo">
-            <span class="brand"><em>Harakiri</em></span>
-          </div>
-          <label class="nav-toggle">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-          </label>
-          <ul class="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#learn">Learn</a></li>
-            <li><a href="#studio">Studio</a></li>
-            <li><a href="#classes">Classes</a></li>
-            <li><a href="#schedule-prices">Schedule & Prices</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </nav>
-      </div> <!-- WRAPPER CLOSURE -->
-    </header>
+
+    <nav class="main-nav">
+      <div class="main-nav__brand">
+        <img class="main-nav__logo" src="assets/image/logo.png" alt="brand logo">
+        <a href="#" class="main-nav__name"><span>Bamboo Dragon</span></a>
+      </div>
+      <label class="main-nav__toggle">
+        <span class="main-nav__burger"></span>
+        <span class="main-nav__burger"></span>
+        <span class="main-nav__burger"></span>
+      </label>
+      <ul class="main-nav__list">
+        <li class="main-nav__item">
+          <a class="main-nav__link" href="#about">About</a>
+        </li>
+        <li class="main-nav__item">
+          <a class="main-nav__link" href="#learn">Learn</a>
+        </li>
+        <li class="main-nav__item">
+          <a class="main-nav__link" href="#schedule">Schedule</a>
+        </li>
+        <li class="main-nav__item">
+          <a class="main-nav__link" href="#pricing">Pricing</a>
+        </li>
+        <li class="main-nav__item">
+          <a class="main-nav__link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
 
     <main>
-      <div class="wrapper"></div>
+      <div class="wrapper wrapper-main">
 
         <!-- 2 HERO -->
         <section class="hero" id="home">
-          <div class="video-container">
-            <video autoplay muted loop class="video-bg">
-              <source src="video/martial_arts_bg.mp4" type="video/mp4">
+          <div class="hero__background">
+            <video autoplay muted loop class="hero__video">
+              <source src="assets/video/martial_arts_bg.mp4" type="video/mp4">
             </video>
           </div>
-          <div class="content">
-            <h1 class="hero-header">Hero</h1>
-            <p class="hero-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <a href="#about" class="button">Find Out More</a>
+          <div class="content hero__content">
+            <h1 class="header hero__header">Bamboo Dragon</h1>
+            <hr class="hr hero__hr">
+            <p class="headline hero__headline">Learn the ancient art of Kung Fu from traditional linages </p>
+            <a href="#about" class="button hero__button">Find Out More</a>
           </div>
         </section>
 
         <!-- 3 ABOUT -->
         <section class="about" id="about">
-          <div class="content">
-            <div class="about-text">
-              <h2>About</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <br> Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+          <div class="content about__content about__content--kungfu ">
+            <div class="about__text-box">
+              <div class="head about__head">
+                <h2 class="header about__header">Shaolin Kung Fu</h2>
+                <p class="headline about__headline">少林功夫</p>
+              </div>
+              <p>Shaolin Kung Fu finds its roots deep in the past, as it originated 1500 years ago in the Shaolin monastery. It is today, one of the most sophisticated and identifiable among all Kung Fu styles, and is inextricably linked with the teachings of Chen or Zen Buddhism.</p>
+              <p>It is taught through forms - sets of stances and moves - and has more than a thousand forms, and for this very reason Shaolin Kung Fu is deemed to be the most complex Kung Fu style. As a result of this diversity, and abundance of training methods and forms, many sub-styles have been developed.</p>
             </div>
-            <div class="about-image">
-              <img src="image/teacher.jpg">
+            <div class="about__image-box">
+              <img class="about__image" src="assets/image/chinese_temple.jpg" alt="ancient shaolin temple drawing">
+            </div>
+          </div>
+          <div class="content about__content about__content--teacher">
+            <div class="about__text-box">
+              <div class="head about__head">
+                <h2 class="header about__header">Shifu Shi Yanjun</h2>
+                <p class="headline about__headline">司夫李景林</p>
+              </div>
+              <p>Greetings, I am Shifu Shi Yanjun, 34th generation Shaolin warrior monk, a disciple of Venerable Abbot Shi Yongxin, and a 17th generation disciple of Meihua Quan.</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi eveniet nihil ab consequuntur natus provident sint repudiandae distinctio quisquam quae dolorum suscipit facere necessitatibus recusandae, praesentium molestiae? Voluptatem, minima consectetur. Dolore, magnam! Fugiat, expedita accusantium?</p>
+            </div>
+            <div class="about__image-box">
+              <img class="image about__image" src="assets/image/portrait.jpg" alt="portrait of teacher">
             </div>
           </div>
         </section>
 
         <!-- 4 LEARN -->
         <section class="learn" id="learn">
-          <div class="content">
-            <div class="learn-text">
-              <h2>Learn</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <div class="content learn__content">
+            <div class="head learn__head">
+              <h2 class="header learn__header">Master your body & mind</h2>
+              <p class="headline learn__headline">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos quas veniam nemo corrupti soluta unde odio odit quam voluptates possimus? Rerum in quaerat doloribus eos porro, quibusdam quidem reprehenderit at!</p>
             </div>
-            <div class="learn-list">
-              <ul>
-                <li class="learn-list-item">#1 Sed do eiusmod tempor incididunt ut labore</li>
-                <li class="learn-list-item">#2 Sunt in culpa qui officia deserunt mollit anim</li>
-                <li class="learn-list-item">#3 Lorem ipsum dolor sit amet consectetur</li>
-                <li class="learn-list-item">#4 Ipsum dolor sit amet consectetur adipiscing elit sed do</li>
-                <li class="learn-list-item">#5 Duis aute irure dolor in reprehenderit in voluptate</li>
-                <li class="learn-list-item">#6 Olor sit amet consectetur deserunt mollit anim</li>
-              </ul>
+            <div class="learn__card-container">
+              <div class="learn__card">
+                <div class="learn__image-box">
+                  <img class="learn__image" src="assets/image/agility.jpg" alt="two asian looking male martial artists in combat, one striking for the head, the other dodging">
+                </div>
+                <div class="learn__text-box">
+                  <div class="learn__text-box__content">
+                    <h3 class="learn__text-box__header">Agility</h3>
+                    <p class="learn__text-box__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus incidunt blanditiis expedita aspernatur iure? Necessitatibus.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="learn__card">
+                <div class="learn__image-box">
+                  <img class="learn__image" src="assets/image/self_defense.jpg" alt="two asian looking male martial artists in combat, one kicking, the other blocking the attack">
+                </div>
+                <div class="learn__text-box">
+                  <div class="learn__text-box__content">
+                    <h3 class="learn__text-box__header">Self Defense</h3>
+                    <p class="learn__text-box__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus incidunt blanditiis expedita aspernatur iure? Necessitatibus.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="learn__card">
+                <div class="learn__image-box">
+                  <img class="learn__image" src="assets/image/flexibility.jpg" alt="one asian looking male martial artist kicking high into the air, showing great flexibility">
+                </div>
+                <div class="learn__text-box">
+                  <div class="learn__text-box__content">
+                    <h3 class="learn__text-box__header">Flexibility</h3>
+                    <p class="learn__text-box__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus incidunt blanditiis expedita aspernatur iure? Necessitatibus.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="learn__card">
+                <div class="learn__image-box">
+                  <img class="learn__image" src="assets/image/qi.jpg" alt="two asian looking male martial artists in combat, one being blown away backwards">
+                </div>
+                <div class="learn__text-box">
+                  <div class="learn__text-box__content">
+                    <h3 class="learn__text-box__header">Power of Qi</h3>
+                    <p class="learn__text-box__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus incidunt blanditiis expedita aspernatur iure? Necessitatibus.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="learn__card">
+                <div class="learn__image-box">
+                  <img class="learn__image" src="assets/image/mind_peace.jpg" alt="one asian looking male martial artist in standing meditation with the eyes closed and handpalms facing the sacral region">
+                </div>
+                <div class="learn__text-box">
+                  <div class="learn__text-box__content">
+                    <h3 class="learn__text-box__header">Mind Control</h3>
+                    <p class="learn__text-box__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus incidunt blanditiis expedita aspernatur iure? Necessitatibus.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="learn__card">
+                <div class="learn__image-box">
+                  <img class="learn__image" src="assets/image/fart.jpg  " alt="two asian looking male martial artists in combat, one facing the other with the butt while ligting one leg">
+                </div>
+                <div class="learn__text-box">
+                  <div class="learn__text-box__content">
+                    <h3 class="learn__text-box__header">Fart Attack</h3>
+                    <p class="learn__text-box__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus incidunt blanditiis expedita aspernatur iure? Necessitatibus.</p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </section>
 
-        <!-- 5 STUDIO -->
-        <section class="studio" id="studio">
-          <div class="content">
-            <div class="studio-header header">
-              <h2>Studio</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <!-- 5 SCHEDULE -->
+        <section class="schedule" id="schedule">
+          <div class="content schedule__content">
+            <div class="head schedule__head">
+              <h2 class="header schedule__header">Schedule</h2>
+              <p class="headline schedule__headline">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi doloribus qui molestias voluptatibus sunt obcaecati.</p>
             </div>
-            <div class="card-container">
-              <div class="card">
-                <div class="image-box">
-                  <img src="image/ring.jpg">
+            <div class="tab-container schedule__tab-container">
+              <input type="radio" name="schedule__radio" id="monday" checked="checked">
+              <input type="radio" name="schedule__radio" id="tuesday">
+              <input type="radio" name="schedule__radio" id="wednesday">
+              <input type="radio" name="schedule__radio" id="thursday">
+              <input type="radio" name="schedule__radio" id="vriday">
+              <input type="radio" name="schedule__radio" id="saturday">
+              <input type="radio" name="schedule__radio" id="sunday">
+              <div class="tabs schedule__tabs">
+                <label for="monday" class="schedule__label monday">
+                  <span class="topic schedule__topic">Monday</span>
+                </label>
+                <label for="tuesday" class="schedule__label tuesday">
+                  <span class="topic schedule__topic">Tuesday</span>
+                </label>
+                <label for="wednesday" class="schedule__label wednesday">
+                  <span class="topic schedule__topic">Wednesday</span>
+                </label>
+                <label for="thursday" class="schedule__label thursday">
+                  <span class="topic schedule__topic">Thursday</span>
+                </label>
+                <label for="vriday" class="schedule__label vriday">
+                  <span class="topic schedule__topic">Vriday</span>
+                </label>
+                <label for="saturday" class="schedule__label saturday">
+                  <span class="topic schedule__topic">Saturday</span>
+                </label>
+                <label for="sunday" class="schedule__label sunday">
+                  <span class="topic schedule__topic">Sunday</span>
+                </label>
+              </div>
+              <div class="tab-text schedule__text-container">
+                <div class="tab-text schedule__tab-text monday">
+                  <table class="table schedule__table">
+                    <tr>
+                      <th>06 : 00 - 07 : 30</th>
+                      <td>Zen Meditation</td>
+                    </tr>
+                    <tr>
+                      <th>08 : 00 - 10 : 00</th>
+                      <td>Qi Gong</td>
+                    </tr>
+                    <tr>
+                      <th>17 : 00 - 18 : 15</th>
+                      <td>Kung Fu - Kids</td>
+                    </tr>
+                    <tr>
+                      <th>18 : 30 - 20 : 00</th>
+                      <td>Kung Fu - Advanced</td>
+                    </tr>
+                    <tr>
+                      <th>20 : 30 - 21 : 30</th>
+                      <td>Zen Meditation</td>
+                    </tr>
+                  </table>
                 </div>
-                <div class="text-box">
-                  <div class="card-text">
-                    <h3>Header card 1</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                  </div>
+                <div class="tab-text schedule__tab-text tuesday">
+                  <table class="table schedule__table">
+                    <tr>
+                      <th>06 : 00 - 07 : 30</th>
+                      <td>Zen Meditation</td>
+                    </tr>
+                    <tr>
+                      <th>08 : 00 - 10 : 00</th>
+                      <td>Kung Fu - All Levels</td>
+                    </tr>
+                    <tr>
+                      <th>17 : 00 - 18 : 15</th>
+                      <td>Kung Fu - Beginners</td>
+                    </tr>
+                    <tr>
+                      <th>18 : 30 - 20 : 00</th>
+                      <td>Kung Fu - Eldery</td>
+                    </tr>
+                    <tr>
+                      <th>20 : 30 - 21 : 30</th>
+                      <td>Zen Meditation</td>
+                    </tr>
+                  </table>
+                </div>
+                <div class="tab-text schedule__tab-text wednesday">
+                  <table class="table schedule__table">
+                    <tr>
+                      <th>06 : 00 - 07 : 30</th>
+                      <td>Zen Meditation</td>
+                    </tr>
+                    <tr>
+                      <th>08 : 00 - 10 : 00</th>
+                      <td>Kung Fu - All Levels</td>
+                    </tr>
+                    <tr>
+                      <th>17 : 00 - 18 : 15</th>
+                      <td>Kung Fu - kids</td>
+                    </tr>
+                    <tr>
+                      <th>18 : 30 - 20 : 00</th>
+                      <td>Kung Fu - Advanced</td>
+                    </tr>
+                    <tr>
+                      <th>20 : 30 - 21 : 30</th>
+                      <td>Zen Meditation</td>
+                    </tr>
+                  </table>
+                </div>
+                <div class="tab-text schedule__tab-text thursday">
+                  <table class="table schedule__table">
+                    <tr>
+                      <th>06 : 00 - 07 : 30</th>
+                      <td>Zen Meditation</td>
+                    </tr>
+                    <tr>
+                      <th>08 : 00 - 10 : 00</th>
+                      <td>Kung Fu - All Levels</td>
+                    </tr>
+                    <tr>
+                      <th>17 : 00 - 18 : 15</th>
+                      <td>Qi Gong</td>
+                    </tr>
+                    <tr>
+                      <th>18 : 30 - 20 : 00</th>
+                      <td>Kung Fu - Advanced</td>
+                    </tr>
+                    <tr>
+                      <th>20 : 30 - 21 : 30</th>
+                      <td>Zen Meditation</td>
+                    </tr>
+                  </table>
+                </div>
+                <div class="tab-text schedule__tab-text vriday">
+                  <table class="table schedule__table">
+                    <tr>
+                      <th>06 : 00 - 07 : 30</th>
+                      <td>Zen Meditation</td>
+                    </tr>
+                    <tr>
+                      <th>08 : 00 - 10 : 00</th>
+                      <td>Kung Fu - All Levels</td>
+                    </tr>
+                    <tr>
+                      <th>17 : 00 - 18 : 15</th>
+                      <td>Kung Fu - Kids</td>
+                    </tr>
+                    <tr>
+                      <th>18 : 30 - 20 : 00</th>
+                      <td>Kung Fu - Beginners</td>
+                    </tr>
+                    <tr>
+                      <th>20 : 30 - 21 : 30</th>
+                      <td>Zen Meditation</td>
+                    </tr>
+                  </table>
+                </div>
+                <div class="tab-text schedule__tab-text saturday">
+                  <table class="table schedule__table">
+                    <tr>
+                      <th>06 : 00 - 07 : 30</th>
+                      <td>Zen Meditation</td>
+                    </tr>
+                    <tr>
+                      <th>08 : 00 - 10 : 00</th>
+                      <td>Kung Fu - Kids</td>
+                    </tr>
+                    <tr>
+                      <th>10 : 00 - 11 : 30</th>
+                      <td>Kung Fu - Eldery</td>
+                    </tr>
+                    <tr>
+                      <th>17 : 00 - 18 : 15</th>
+                      <td>Qi Gong</td>
+                    </tr>
+                    <tr>
+                      <th>18 : 30 - 20 : 00</th>
+                      <td>Kung Fu - Advanced</td>
+                    </tr>
+                    <tr>
+                      <th>20 : 30 - 21 : 30</th>
+                      <td>Zen Meditation</td>
+                    </tr>
+                  </table>
+                </div>
+                <div class="tab-text schedule__tab-text sunday">
+                  <table class="table schedule__table">
+                    <tr>
+                      <th>06 : 00 - 07 : 30</th>
+                      <td>Zen Meditation</td>
+                    </tr>
+                    <tr>
+                      <th>08 : 00 - 10 : 00</th>
+                      <td>Kung Fu - Kids</td>
+                    </tr>
+                    <tr>
+                      <th>10 : 00 - 11 : 30</th>
+                      <td>Kung Fu - Eldery</td>
+                    </tr>
+                    <tr>
+                      <th>20 : 30 - 21 : 30</th>
+                      <td>Zen Meditation</td>
+                    </tr>
+                  </table>
                 </div>
               </div>
-              <div class="card">
-                <div class="image-box">
-                  <img src="image/mma_gear.jpg">
-                </div>
-                <div class="text-box">
-                  <div class="card-text">
-                    <h3>Header card 2</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="card">
-                <div class="image-box">
-                  <img src="image/bags.jpg">
-                </div>
-                <div class="text-box">
-                  <div class="card-text">
-                    <h3>Header card 3</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="card">
-                <div class="image-box">
-                  <img src="image/weights.jpg">
-                </div>
-                <div class="text-box">
-                  <div class="card-text">
-                    <h3>Header card 4</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="card">
-                <div class="image-box">
-                  <img src="image/weapons.jpg">
-                </div>
-                <div class="text-box">
-                  <div class="card-text">
-                    <h3>Header card 5</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="card">
-                <div class="image-box">
-                  <img src="image/sauna.jpg">
-                </div>
-                <div class="text-box">
-                  <div class="card-text">
-                    <h3>Header card 6</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                  </div>
-                </div>
-              </div>
-            </div> 
-          </div>  <!-- CONTENT CLOSURE -->
-        </section>
-
-        <!-- 6 CLASSES -->
-        <section class="classes" id="classes">
-          <div class="content">
-            <div class="classes-header header">
-              <h2>Classes</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            </div> 
-            <div class="classes-container">
-
-              <div class="class-container">
-                <div class="class-header">
-                  <div class="image-box">
-                    <img src="image/boxing.jpg" alt="">
-                  </div>
-                  <div class="header-box">
-                    <h3>Boxing</h3>
-                  </div>
-                </div>
-                <p class="classes-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-              </div>
-
-              <div class="class-container">
-                <div class="class-header">
-                  <div class="image-box">
-                    <img src="image/kungfu.jpg" alt="">
-                  </div>
-                  <div class="header-box">
-                    <h3>Kung Fu</h3>
-                  </div>
-                </div>
-                <p class="classes-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-              </div>
-
-              <div class="class-container">
-                <div class="class-header">
-                  <div class="image-box">
-                    <img src="image/kickboxing.jpg" alt="">
-                  </div>
-                  <div class="header-box">
-                    <h3>Muay Thai</h3>
-                  </div>
-                </div>
-                <p class="classes-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-              </div>
-
-              <div class="class-container">
-                <div class="class-header">
-                  <div class="image-box">
-                    <img src="image/mma.jpg" alt="">
-                  </div>
-                  <div class="header-box">
-                    <h3>Mixed Martial Arts</h3>
-                  </div>
-                </div>
-                </p>
-                <p class="classes-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-              </div>
-              
-              <div class="class-container">
-                <div class="class-header">
-                  <div class="image-box">
-                    <img src="image/wrestling.jpg" alt="">
-                  </div>
-                  <div class="header-box">
-                    <h3>Brazilian jiu-jitsu</h3>
-                  </div>
-                </div>
-                <p class="classes-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-              </div>
-
-              <div class="class-container">
-                <div class="class-header">
-                  <div class="image-box">
-                    <img src="image/yoga.jpg" alt="">
-                  </div>
-                  <div class="header-box">
-                    <h3>Yoga</h3>
-                  </div>
-                </div>
-                <p class="classes-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-              </div>
-
             </div>
           </div> <!-- CONTENT CLOSURE -->
         </section>
 
-        <!-- 7 SCHEDULE & PRICES -->
-        <section class="schedule-prices" id="schedule-prices">
-          <div class="content">
-            <div>
-              <h2>Schedule</h2>
+        <!-- 6 PRICING -->
+        <section class="pricing" id="pricing">
+          <div class="content pricing__content">
+            <div class="head pricing__head">
+              <h2 class="header pricing__header">Pricing</h2>
+              <p class="headline pricing__headline">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur quod blanditiis rerum quidem quae similique!</p>
             </div>
-            <div class="schedule-container">
-              <table>
-                <tr>
-                  <th>Time</th>
-                  <th>Monday</th>
-                  <th>Tuesday</th>
-                  <th>Wednesday</th>
-                  <th>Thursday</th>
-                  <th>Vriday</th>
-                  <th>Saturday</th>
-                  <th>Sunday</th>
-                </tr>
-                <tr>
-                  <th class="class-header-accent">06:00 - 07:30</th>
-                  <td>Yoga</td>
-                  <td>MMA</td>
-                  <td>Boxing</td>
-                  <td>Yoga</td>
-                  <td>Muay Thai</td>
-                  <td>MMA</td>
-                  <td>Kung Fu</td>
-                </tr>
-                <tr>
-                  <th class="class-header-accent">08:00 - 10:00</th>
-                  <td>MMa</td>
-                  <td>Yoga</td>
-                  <td>BBJ</td>
-                  <td>Kung Fu</td>
-                  <td>BBJ</td>
-                  <td>Yoga</td>
-                  <td>Yoga</td>
-                </tr>
-                <tr>
-                  <th class="class-header-accent">17:00 - 18:30</th>
-                  <td>Boxing</td>
-                  <td>Muay Thai</td>
-                  <td>Yoga</td>
-                  <td>Boxing</td>
-                  <td>Muay Thai</td>
-                  <td>Kung Fu</td>
-                  <td>CLOSED</td>
-                </tr>
-                <tr>
-                  <th class="class-header-accent">18:45 - 20:15</th>
-                  <td>MMA</td>
-                  <td>Kung Fu</td>
-                  <td>BJJ</td>
-                  <td>MMA</td>
-                  <td>BJJ</td>
-                  <td>Muay Thai</td>
-                  <td>CLOSED</td>
-                </tr>
-              </table>  
+            <div class="tab-container pricing__tab-container">
+              <input type="radio" name="pricing__radio" id="adults" checked="checked">
+              <input type="radio" name="pricing__radio" id="students">
+              <input type="radio" name="pricing__radio" id="kids">
+              <input type="radio" name="pricing__radio" id="eldery">
+              <div class="tabs pricing__tabs">
+                <label for="adults" class="pricing__label adults">
+                  <span class="topic pricing__topic">Adults</span>
+                </label>
+                <label for="students" class="pricing__label students">
+                  <span class="topic pricing__topic">Students</span>
+                </label>
+                <label for="kids" class="pricing__label kids">
+                  <span class="topic pricing__topic">Kids</span>
+                </label>
+                <label for="eldery" class="pricing__label eldery">
+                  <span class="topic pricing__topic">Eldery</span>
+                </label>
+              </div>
+              <div class="tab-text pricing__text-container">
+                <div class="tab-text pricing__tab-text adults">
+                  <table class="table pricing__table">
+                    <tr>
+                      <th>Single Class</th>
+                      <td>$10</td>
+                    </tr>
+                    <tr>
+                      <th>10 Classes</th>
+                      <td>$50</td>
+                    </tr>
+                    <tr>
+                      <th>1 Month</th>
+                      <td>$40</td>
+                    </tr>
+                    <tr>
+                      <th>3 Months</th>
+                      <td>$100</td>
+                    </tr>
+                    <tr>
+                      <th>1 Year</th>
+                      <td>$320</td>
+                    </tr>
+                  </table>
+                </div>
+                <div class="tab-text pricing__tab-text students">
+                  <table class="table pricing__table">
+                    <tr>
+                      <th>Single Class</th>
+                      <td>$7</td>
+                    </tr>
+                    <tr>
+                      <th>10 Classes</th>
+                      <td>$30</td>
+                    </tr>
+                    <tr>
+                      <th>1 Month</th>
+                      <td>$25</td>
+                    </tr>
+                    <tr>
+                      <th>3 Months</th>
+                      <td>$60</td>
+                    </tr>
+                    <tr>
+                      <th>1 Year</th>
+                      <td>$200</td>
+                    </tr>
+                  </table>
+                </div>
+                <div class="tab-text pricing__tab-text kids">
+                  <table class="table pricing__table">
+                    <tr>
+                      <th>Single Class</th>
+                      <td>$5</td>
+                    </tr>
+                    <tr>
+                      <th>10 Classes</th>
+                      <td>$25</td>
+                    </tr>
+                    <tr>
+                      <th>1 Month</th>
+                      <td>$20</td>
+                    </tr>
+                    <tr>
+                      <th>3 Months</th>
+                      <td>$50</td>
+                    </tr>
+                    <tr>
+                      <th>1 Year</th>
+                      <td>$160</td>
+                    </tr>
+                  </table>
+                </div>
+                <div class="tab-text pricing__tab-text eldery ">
+                  <table class="table pricing__table">
+                    <tr>
+                      <th>Single Class</th>
+                      <td>$7</td>
+                    </tr>
+                    <tr>
+                      <th>10 Classes</th>
+                      <td>$30</td>
+                    </tr>
+                    <tr>
+                      <th>1 Month</th>
+                      <td>$25</td>
+                    </tr>
+                    <tr>
+                      <th>3 Months</th>
+                      <td>$60</td>
+                    </tr>
+                    <tr>
+                      <th>1 Year</th>
+                      <td>$200</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
             </div>
-
-            <div>
-              <h2>Prices</h2>
-            </div>
-            <div class="prices-container">
-              <table>
-                <tr>
-                  <th>Styles</th>
-                  <th>Single lesson</th>
-                  <th>10 lessons</th>
-                  <th>1 month subscription</th>
-                  <th>3 months subscription</th>
-                  <th>1 year subscription</th>
-                </tr>
-                <tr>
-                  <th class="class-header-accent">Mixed Martial Arts</th>
-                  <td>$10</td>
-                  <td>$50</td>
-                  <td>$40</td>
-                  <td>$100</td>
-                  <td>$300</td>
-                </tr>
-                <tr>
-                  <th class="class-header-accent">Boxing</th>
-                  <td>$10</td>
-                  <td>$50</td>
-                  <td>$40</td>
-                  <td>$100</td>
-                  <td>$300</td>
-                </tr>
-                <tr>
-                  <th class="class-header-accent">Muay Thai</th>
-                  <td>$10</td>
-                  <td>$50</td>
-                  <td>$40</td>
-                  <td>$100</td>
-                  <td>$300</td>
-                </tr>
-                <tr>
-                  <th class="class-header-accent">Kung Fu</th>
-                  <td>$10</td>
-                  <td>$50</td>
-                  <td>$40</td>
-                  <td>$100</td>
-                  <td>$300</td>
-                </tr>
-                <tr>
-                  <th class="class-header-accent">Brazilian jiu-jitsu</th>
-                  <td>$10</td>
-                  <td>$50</td>
-                  <td>$40</td>
-                  <td>$100</td>
-                  <td>$300</td>
-                </tr>
-                <tr>
-                  <th class="class-header-accent">Yoga</th>
-                  <td>$10</td>
-                  <td>$50</td>
-                  <td>$40</td>
-                  <td>$100</td>
-                  <td>$300</td>
-                </tr>
-                <tr>
-                  <th class="class-header-accent">Full Access</th>
-                  <td>$10</td>
-                  <td>$50</td>
-                  <td>$40</td>
-                  <td>$100</td>
-                  <td>$300</td>
-                </tr>
-              </table>
-            </div>
-
           </div> <!-- CONTENT CLOSURE -->
         </section>
 
-
-        <!-- 9 CONTACT -->
+        <!-- 7 CONTACT -->
         <section class="contact" id="contact">
-          <div class="content">
-            <div class="">
-              <h2>Contact</h2>
+          <div class="content contact__content">
+            <div class="head contact__head">
+              <h2 class="header contact__header">Contact</h2>
+              <p class="headline contact_headline">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti, consequatur iste. Iure dolorum sapiente architecto ipsa dolore officiis, rem dolorem!</p>
             </div>
-            <div class="contact-container">
-              <div class="contact-info">
-                <div class="box box-address">
-                  <div class="icon">
+            <div class="contact__container">
+              <div class="contact__info">
+                <div class="contact__info-box contact__address-box">
+                  <div class="contact__icon-box contact__address__icon-box">
                     <a href="https://www.google.co.in/maps" target="_blank">
-                      <i class="fas fa-map-marker-alt"></i>
+                      <i class="contact__icon fas fa-map-marker-alt"></i>
                     </a>
                   </div>
-                  <div class="text">
+                  <div class="contact__text-box contact__address__text-box">
                     <h4>Address</h4>
                     <p>Cecilia Chapman 711-2880 Nulla<br> St. Mankato Mississippi 96522</p>
                   </div>
                 </div>
-                <div class="box box-phone">
-                  <div class="icon">
-                    <a href="tel:+6494461709" target="">
-                      <i class="fas fa-phone"></i>
+                <div class="contact__info-box contact__phone-box">
+                  <div class="contact__icon-box contact__phone__icon-box">
+                    <a href="tel:+6494461709" target="_self">
+                      <i class="contact__icon fas fa-phone"></i>
                     </a>
                   </div>
-                  <div class="text">
+                  <div class="contact__text-box contact__phone__text-box">
                     <h4>Phone</h4>
                     <p>7165481322</p>
                   </div>
                 </div>
-                <div class="box box-email">
-                  <div class="icon">
-                    <a href="mailto:name@email.com" target="">
-                      <i class="fas fa-envelope"></i>
+                <div class="contact__info-box contact__email-box">
+                  <div class="contact__icon-box contact__email__icon-box">
+                    <a href="mailto:name@email.com" target="_self">
+                      <i class="contact__icon fas fa-envelope"></i>
                     </a>
                   </div>
-                  <div class="text">
+                  <div class="contact__text-box contact__email__text-box">
                     <h4>Email</h4>
                     <p>email@address.com</p>
                   </div>
                 </div>
+
+                <div class="social__container">
+                    <div class="social__box">
+                      <div class="social__icon-box">
+                        <a class="social__link" href="#">
+                          <i class="social__icon fab fa-facebook-f"></i>
+                          <span class="social__label">Facebook</span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="social__box">
+                      <div class="social__icon-box">
+                        <a class="social__link" href="#">
+                          <i class="social__icon fab fa-instagram"></i>
+                          <span class="social__label">Instagram</span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="social__box">
+                      <div class="social__icon-box">
+                        <a class="social__link" href="#">
+                          <i class="social__icon fab fa-youtube"></i>
+                          <span class="social__label">Youtube</span>
+                        </a>
+                      </div>
+                    </div>
+                </div> <!-- SOCIAL CLOSURE-->
               </div> <!-- CONTACT INFO CLOSURE -->
 
-              <div class="contact-form">
-                <form method="post" action="" autocomplete="off">
-                  <div class="contact-form-text">
-                    <h3 class="contact-form-header">Get in Touch</h3>
-                    <p class="contact-form-description">Send us a message and we will get back to you within 24 hours</p>
+              <div class="contact__form">
+                <form method="post" action="action_page.php" autocomplete="off">
+                  <div class="head contact__form__head">
+                    <h3 class="header contact__form__header">Get in Touch</h3>
+                    <p class="headline contact__form__headline">Send us a message and we will get back to you within 24 hours</p>
                   </div>
-                  <div class="input-box">
-                    <input type="text" name="name" class="" id="" required="required">
-                    <span><em>Name</em></span>
+                  <div class="contact__input-box">
+                    <input class="contact__input contact__text" type="text" name="name" id="name" required="required">
+                    <label class="contact__label" for="name">Name</label>
                   </div>
-                  <div class="input-box">
-                    <input type="text" name="email" class="" id="" required="required">
-                    <span><em>Email</em></span>
+                  <div class="contact__input-box">
+                    <input class="contact__input contact__email" type="email" name="email" id="email" required="required">
+                    <label class="contact__label" for="email">Email</label>
                   </div>
-                  <div class="input-box">
-                    <textarea id="" required="required" rows="5"></textarea>
-                    <span><em>Write your message</em></span>
+                  <div class="contact__input-box">
+                    <textarea class="contact__input contact__textarea" name="comment" id="comment" required="required" rows="3"></textarea>
+                    <label class="contact__label" for="comment">Write your message</label>
                   </div>
-                  <div class="input-box">
-                    <input type="submit" value="Send">
+                  <div class="contact__submit-box">
+                    <input class="button contact_button" type="submit" value="Send">
                   </div>
-                </form>
+              </form>
               </div> <!-- CONTACT FORM CLOSURE -->
             </div> <!-- CONTAINER CLOSURE -->
-
-            <div class="social-container">
-              <div class="social">
-                <a href="#">
-                  <div class="box">
-                    <div class="icon">
-                      <i class="fab fa-facebook-f"></i>
-                      <span>Facebook</span>
-                    </div>
-                  </div>
-                </a>
-                <a href="#">
-                  <div class="box">
-                    <div class="icon">
-                      <i class="fab fa-instagram"></i>
-                      <span>Instagram</span>
-                    </div>
-                  </div>
-                </a>
-                <a href="#">
-                  <div class="box">
-                    <div class="icon">
-                      <i class="fab fa-youtube"></i>
-                      <span>Youtube</span>
-                    </div>
-                  </div>
-                </a>
-              </div> <!-- SOCIAL CLOSURE-->
-            </div> <!-- CONTAINER CLOSURE-->
           </div> <!-- CONTENT CLOSURE-->
         </section> <!-- CONTACT CLOSURE -->
-
       </div> <!-- CLOSURE WRAPPER-->
     </main>
 
-    <!-- 9 FOOTER -->
+    <!-- 8 FOOTER -->
     <footer>
-      <div class="designer">
-        <a href="#"><em>Designed by xxx</em></a>
+      <div class="footer__box">
+        <a class="footer__author" href="#">Designed by xxx</a>
       </div>
-      <div class="copyright">
-        <a href="#">&copy; 2021 Harakiri</a>
+      <div class="footer__box">
+        <a class="footer__copyright" href="#">&copy; 2021 Bamboo Dragon</a>
       </div>
     </footer>
-  <script src="script.js"></script>  
+
+  <script src="script.js"></script>
   </body>
 </html>
-  
