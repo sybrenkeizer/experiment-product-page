@@ -20,6 +20,8 @@ Learned:
 
 - CSS Animations
 
-- Application of rem and em units
+- Application of rem and em units 
 
 - More skilled with flexbox
+
+- Use of custom fonts
