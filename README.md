@@ -38,3 +38,6 @@ Need fixing / improved:
 
 - Form
   1. Unable to have the email label remain floated when input in invalid (failed trying)
+
+- Media
+  1. reduce size of images to speed up load time
